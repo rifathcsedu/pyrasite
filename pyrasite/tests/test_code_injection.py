@@ -80,4 +80,3 @@ class TestCodeInjection(object):
                 self.assert_output_contains(stdout, stderr, 'Hello World!')
         finally:
             os.unlink(program)
-
